@@ -33,3 +33,41 @@ nav ul li{
     width: 40px;
     padding: 0 8px;
 }
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+       background-image: url(./image/headphone.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 14px;
+    padding: 20px;
+ 
+
+}
+.songlist{
+
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#myprogressbar{
+    width: 80vw;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
