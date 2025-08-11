@@ -1,0 +1,35 @@
+.inter-milano {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+.brand img{
+    width: 40px;
+    padding: 0 8px;
+}
